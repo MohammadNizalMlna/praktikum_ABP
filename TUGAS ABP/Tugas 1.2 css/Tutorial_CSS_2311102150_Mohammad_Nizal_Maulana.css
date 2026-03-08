@@ -1,0 +1,68 @@
+body{
+background:#f2f2f2;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Logo */
+
+.logo{
+font-size:32px;
+font-weight:bold;
+}
+
+.online{
+color:#1e88e5;
+}
+
+.media{
+color:orange;
+}
+
+/* Kotak menu */
+
+.menu-box{
+height:160px;
+color:white;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+border-radius:5px;
+text-align:center;
+}
+
+.menu-box i{
+font-size:45px;
+margin-bottom:10px;
+}
+
+.menu-box p{
+font-size:20px;
+margin:0;
+}
+
+/* Warna kotak */
+
+.analytic{
+background:#2ecc71;
+}
+
+.creative{
+background:#ff7f32;
+}
+
+.development{
+background:#ff2d2d;
+}
+
+.marketing{
+background:#2aa9c9;
+}
+
+.media-box{
+background:#ffa726;
+}
+
+.optimization{
+background:#28c76f;
+}
