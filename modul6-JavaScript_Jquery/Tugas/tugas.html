@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>web thr</title>
+<link rel="stylesheet" href="tugas.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container-box">
+    <h1 class="title">🌙 SELAMAT HARI RAYA IDUL FITRI 1447 HIJRIAH 🌙</h1>
+    <p class="subtitle">Klik tombol untuk mendapatkan THR</p>
+    <button class="btn-thr" onclick="getTHR()">
+        Ambil THR 🎁
+    </button>
+</div>
+<div class="modal fade" id="thrModal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content text-center">
+      <div class="modal-header">
+        <h5 class="modal-title">yey dapat THR 🥳</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <h4>Selamat anda mendapatkan THR 🥳</h4>
+        <h2 id="jumlahThr" class="thr-text"></h2>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-success" data-bs-dismiss="modal">Alhamdulilah</button>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="tugas.js"></script>
+
+</body>
+</html>

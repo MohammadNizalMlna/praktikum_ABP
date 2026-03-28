@@ -1,0 +1,53 @@
+body{
+    background-image:url(https://asset.kompas.com/crops/XLMoVsJ9uvaUsyxFlWK5wXZcAVA=/0x0:3000x2000/1200x800/data/photo/2025/03/28/67e6359237267.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family: Arial, sans-serif;
+    color:white;
+}
+
+.container-box{
+    text-align:center;
+    background: linear-gradient(rgba(0, 128, 96, 0.6),rgba(0, 80, 60, 0.6));
+    padding:40px;
+    border-radius:20px;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+    max-width: 600px;
+    width: 90%;
+}
+
+.title{
+    font-size:40px;
+    font-weight:bold;
+    color: #ffff;
+}
+
+.subtitle{
+    margin-bottom:25px;
+    color: #ffff;
+}
+
+.btn-thr{
+    background:#ffd700;
+    border:none;
+    padding:12px 25px;
+    font-size:18px;
+    border-radius:30px;
+    transition:0.3s;
+}
+
+.btn-thr:hover{
+    transform:scale(1.05);
+    background:#ffc107;
+}
+
+.thr-text{
+    color:green;
+    margin-top:10px;
+}
