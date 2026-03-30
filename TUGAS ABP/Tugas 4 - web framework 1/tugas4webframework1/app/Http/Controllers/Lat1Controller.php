@@ -10,6 +10,8 @@ class Lat1Controller extends Controller
     public function index() {
         $data["nama"] = "Agus";
         $data["asal"] = "Bandung";
+        $data["nama"] = "Mohammad Nizal Maulana";
+        $data["asal"] = "Slawi";
         return view('v_latihan1', $data);
     }
 
@@ -18,6 +20,7 @@ class Lat1Controller extends Controller
         $data['title'] = "Daftar Mahasiswa";
         $data['daf_mhs'] = array(
             array("nama" => "Agus", "asal" => "Bandung"),
+            array("nama" => "Nizal", "asal" => "Slawi"),
             array("nama" => "Budi", "asal" => "Jakarta"),
             array("nama" => "Roni", "asal" => "Surabaya")
         );
