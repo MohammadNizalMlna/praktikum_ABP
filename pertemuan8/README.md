@@ -187,7 +187,7 @@ int nilai = 75;
 ### Looping
 Secara umum, terdapat dua cara untuk melakukan looping di dart, yaitu menggunakan for loop dan while loop
 
-1. For Loops
+1. For Loops <br>
 Gunakan for loop saat kondisinya tau persis seberapa banyak looping akan dilakukan, contohnya melakukan perulangan sebanyak 10 kali dengan iterasi sebanyak 1 tingkat atau 1 kali.
 ```dart
   print("Perulangan FOR:");
@@ -195,7 +195,7 @@ Gunakan for loop saat kondisinya tau persis seberapa banyak looping akan dilakuk
     print("Angka ke-$i");
   }
 ```
-2. While Loops
+2. While Loops <br>
 Gunakan while loop saat kondisinya tidak tahu kapan perulangan akan berhenti, contohnya sediakan input angka hingga user menginput tanda "-".
 ```dart
   print("\nPerulangan WHILE:");
@@ -208,7 +208,7 @@ Gunakan while loop saat kondisinya tidak tahu kapan perulangan akan berhenti, co
 
 ### List
 Secara umum, kumpulan banyak data dalam satu variable disibut array. Tetapi beberapa bahasa pemrograman menyebutnya dengan list, termasuk bahasa dart ini. List memiliki 2 tipe, yaitu Fixed Length List dan Growable List
-1. Fixed Length List
+1. Fixed Length List <br>
 Dari namanya bisa diketahui bahwa tipe list ini memiliki panjang index yang tetap dan tidak dapat bertambah banyak.
 ```dart
   List<int> newList = List.filled(3, 0);
@@ -217,7 +217,7 @@ Dari namanya bisa diketahui bahwa tipe list ini memiliki panjang index yang teta
   newList[2] = 11;
   print("Fixed List: $newList");
 ```
-2. Growable List
+2. Growable List <br>
 Gunakan growable list apabila memiliki banyak object yang tidak menentu atau banyaknya object yang terus bertambah.
 ```dart
   List<int> dynamicList = [];
@@ -248,7 +248,7 @@ void main() {
   print(factorial(6));
 }
 ```
-3. Mengembalikan Nilai
+3. Mengembalikan Nilai <br>
 Tambahkan return apabila anda mendefinisikan sebuah fungsi, contohnya ada pada codingan dibawah yang bisa mengembalikan nilai faktorial dari angka yang sudah ditentukan.
 ```dart
 // mengembalikan nilai
@@ -260,7 +260,7 @@ int factorialReturn(int number) {
   }
 }
 ```
-4. Menambahkan Parameter
+4. Menambahkan Parameter <br>
 Fungsi memiliki scope yang terbatas, tentunya fungsi butuh input dari luar agar program didalamnya bisa memproses tugasnya.
 ```dart
 // menambahkan parameter
