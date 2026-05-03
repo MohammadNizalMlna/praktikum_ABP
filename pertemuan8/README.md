@@ -2,7 +2,7 @@
   <br />
   <h1>LAPORAN PRAKTIKUM<br>APLIKASI BERBASIS PLATFORM</h1>
   <br />
-  <h3>PERTEMUAN 7</h3>
+  <h3>PERTEMUAN 8</h3>
   <br />
   <img src="https://upload.wikimedia.org/wikipedia/commons/0/03/Logo_Telkom_University_potrait.png" alt="Logo" width="300"> 
   <br />
